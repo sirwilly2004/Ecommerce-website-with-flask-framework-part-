@@ -16,14 +16,14 @@
 import requests
 
 # Your Paystack Test Secret Key
-API_PUBLISHABLE_KEY_PAYSTACK = 'pk_test_5305ca498fb5a49437af9c55775d71b26529ee0f'
-API_KEY = 'sk_test_3a20f59f79665afb41a71f7fb5ee3825c608672c'
+API_PUBLISHABLE_KEY_PAYSTACK = 'pk_scecret for me 0f'
+API_KEY = 'sk_testsecret for the using paystact08672c'
 # Paystack API endpoint for initializing a transaction
 url = 'https://api.paystack.co/transaction/initialize'
 
 # Sample transaction data
 data = {
-    "email": "williamsolaolaolu2004@gmail.com",  # Customer's email
+    "email": "williamyourgmail@gmail.com",  # Customer's email
     "amount": 500,  # Amount in kobo (50000 kobo = 500 Naira)
     "currency": "NGN",  # Currency code
 }
